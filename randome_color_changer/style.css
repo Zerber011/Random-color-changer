@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+    font-family: sans-serif;
+    color: rgb(238, 238, 238);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.cube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    border: 5px solid yellowgreen;
+    border-radius: 10px;
+}
+
+#colorId {
+    font-size: 1.3rem;
+}
+
+.stop-btn {
+    border: 2px solid yellowgreen;
+    color: rgb(238, 238, 238);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-btn {
+    background-color: rgb(37, 37, 37);
+    border: 2px solid yellowgreen;
+    color: rgb(238, 238, 238);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mutual {
+    margin: 25px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+}
